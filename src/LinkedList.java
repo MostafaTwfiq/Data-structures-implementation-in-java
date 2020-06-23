@@ -39,6 +39,7 @@ public class LinkedList<T> {
 
         if (isEmpty()) {
             tail = head = tempNode;
+            count++;
             return;
         }
 
